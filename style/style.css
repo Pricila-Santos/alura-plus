@@ -19,15 +19,23 @@ body {
 h1 {
     font-size: 28px;
 }
+.container_imagem {
+    margin: 1em 0 2em 0; /*top/direito/abaixo/esquerda*/
+}
 .principal{
     background-image: url('../img/Background.png');
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;/*em vez de usar margim top,usamos essa propriedade para centralizar,porque o container esta display grid*/
+    text-align: center;
 }
 .container {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+}
+.container_caixa {
+    margin:0 6em;
 }
 .container_botao {
     display: block;
@@ -36,6 +44,7 @@ h1 {
     padding: 1em;
     color: var(--branco-principal);
     text-decoration: none;
+    margin-bottom: 1em;
 }
 .botao_secundario {
     background-color: transparent;
@@ -48,6 +57,21 @@ h1 {
   
     
 }
-
+.secundario__imagem {
+    width: 80%;
+}
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
 
 
