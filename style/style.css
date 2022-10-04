@@ -62,16 +62,45 @@ h1 {
 }
 .secundario {
     align-items: center;
-    margin: 0 10em;
+    margin: -4em 10em;
 }
 .descricao__titulo{
     font-weight: 700;
-    font-size: 48px;
+    font-size: 46px;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
 }
 .descricao__texto {
     color: var(--cinza-secundario);
+}
+
+.secundario_botao {
+    display: inline-block; /*em linha*/
+    margin-top: 1em;
+}
+.container__descricao {
+    padding: 2em;
+}
+.dispositivo__lista{
+    display:flex  ; /*Poderia usar tambem dispay grid ,grid-template-columns: 33% 33% 33%;*/
+    justify-content: center;
+    list-style-type: none;  /* estilo da litsa ,para sair as bolinhas de marcação do lado da imagem*/
+    margin: 5em;
+
+}
+.dispositivos {
+    text-align: center;
+}
+.dispositivo__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+    
+
+}
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+
 }
 
 
