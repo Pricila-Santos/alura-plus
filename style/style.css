@@ -103,4 +103,28 @@ h1 {
 
 }
 
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+.rodape__lista {
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+    margin-top: 1em;
+    }
+
+.lista__link a {
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+    
+}
+
+
+.texto__rodape {
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    margin:1em 0
+}
 
